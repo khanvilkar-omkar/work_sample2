@@ -1,0 +1,101 @@
+index,Comment,actual_MLTD_label,spaCy_Predicted_MLTD_label_BAL,spaCy_Predicted_MLTD_label_AAL,SATD_predictor
+18026,TODO: document,No,Yes,Yes,Yes
+16716,as reverse recursion in this application but it is more efficient.,No,Yes,Yes,No
+16680,no warning needed - but switch to -1 anyway; to avoid surprising,Yes,Yes,Yes,No
+34330,Move up\/down,Yes,Yes,Yes,Yes
+40269,If using modern VTK\/Mayavi; improve rendering with FXAA,Yes,Yes,Yes,Yes
+101,This check is needed because np.stack will always duplicate array in memory.,No,Yes,Yes,No
+2498,append the suffix if needed,Yes,Yes,Yes,No
+3741,"\""\""\"" || Optuna example that optimizes a classifier configuration for IMDB movie review dataset. || This script is based on the example of allentune (https:\/\/github.com\/allenai\/allentune). ||  || In this example; we optimize the validation accuracy of sentiment classification using AllenNLP. || Since it is too time-consuming to use the entire dataset; we here use a small subset of it. ||  || We have the following two ways to execute this example: ||  || (1) Execute this code directly. ||     $ python allennlp_simple.py ||  ||  || (2) Execute through CLI. ||     $ STUDY_NAME=`optuna create-study --direction maximize --storage sqlite:\/\/\/example.db` ||     $ optuna study optimize allennlp_simple.py objective --n-trials=100 --study $STUDY_NAME \\ ||       --storage sqlite:\/\/\/example.db ||  || \""\""\""",No,No,No,Yes
+26044,''' || Created on Oct 27; 2010 || Logistic Regression Working Module || @author: Peter || ''',No,Yes,Yes,Yes
+14742,M_inv: Inverted normalized transformation matrix --> Needed for grid sample,No,Yes,Yes,No
+29377,TODO(daniel) this is perhaps an older way of analyzing the data?,No,Yes,Yes,Yes
+8523,complement stain matrix if needed,Yes,Yes,Yes,No
+11011,TODO: Figure out why.,Yes,Yes,Yes,Yes
+10900,We generate English->X data by convention; to train reverse translation,No,Yes,Yes,No
+14969,TODO: Add documentation,Yes,Yes,Yes,Yes
+18070,TODO: replace with (stable) Draft6Validator; if available,Yes,Yes,Yes,Yes
+14809,KLUDGE: I'm assuming that chunksize will always be larger than,No,Yes,Yes,Yes
+17449,move request to provided crop rois,Yes,Yes,Yes,Yes
+15067,"FLAG: Tally number of columns \""transformed\"" and \""added\"" at each step and report",Yes,Yes,Yes,No
+23696,perhaps rescale to avoid clipping?,Yes,Yes,Yes,Yes
+38816,[(Exp*; XXX name)],No,Yes,Yes,Yes
+17660,TODO AddToHueAndSaturation,Yes,Yes,Yes,Yes
+16731,unused,Yes,Yes,Yes,No
+6834,save the policy if it's better than the previous ones,Yes,Yes,Yes,Yes
+31182,TODO: normalize,Yes,Yes,Yes,Yes
+9312,TODO: would be better to make these namedtuples...,Yes,Yes,Yes,Yes
+13410,TODO: this should be taken out of here... but depends too much on DDP,Yes,Yes,Yes,Yes
+12064,TODO: Add back padding,Yes,Yes,Yes,Yes
+32872,TODO: optimize with chess.popcount,Yes,Yes,Yes,Yes
+14617,TODO TODO TODO TODO TODO,No,No,No,Yes
+26230,X = pd.DataFrame(columns=X.columns; data=Xmatrix),No,Yes,Yes,No
+13313,todo comment,Yes,Yes,Yes,Yes
+37527,TODO: check that no-one accidentally overwrites the index?,Yes,Yes,No,Yes
+37616,Hence; the following hack,Yes,Yes,Yes,Yes
+12391,TODO: RETHING LOOP AS IN THE ONE ABOVE,Yes,Yes,Yes,Yes
+31602,length HMM convention.,No,Yes,Yes,No
+20211,TODO make this robust,Yes,Yes,Yes,Yes
+10725,FIXME: is it possible to make order stable?,Yes,Yes,No,Yes
+2191,subclasses are required to redefine as needed,Yes,Yes,Yes,No
+27713,TODO(sonots): Implement for ChainerX,Yes,Yes,Yes,Yes
+6077,TODO: handle non-Series input,Yes,Yes,Yes,Yes
+23061,TODO: protect against insertion,Yes,Yes,Yes,Yes
+6396,an SQL database with columns:,No,Yes,Yes,No
+23947,you have to somehow get this directly dumped to the card; see comment above,Yes,Yes,Yes,No
+11766,Gensim also contains `efficient utility functions <http:\/\/radimrehurek.com\/gensim\/matutils.html>`_,No,Yes,Yes,Yes
+11230,TODO(trandustin): Depend on github's ed2 for indexing RVs. This is a hack.,Yes,Yes,Yes,Yes
+26358,"\""\""\"" || ========================================================== || Porto Seguro: balancing samples in mini-batches with Keras || ========================================================== ||  || This example compares two strategies to train a neural-network on the Porto || Seguro Kaggle data set [1]_. The data set is imbalanced and we show that || balancing each mini-batch allows to improve performance and reduce the training || time. ||  || References || ---------- ||  || .. [1] https:\/\/www.kaggle.com\/c\/porto-seguro-safe-driver-prediction\/data ||  || \""\""\""",No,Yes,Yes,Yes
+18625,Maybe we need a stopping criteria based on the amount of,Yes,Yes,Yes,Yes
+39540,Workspace needed?,Yes,Yes,Yes,No
+26712,'inception_v3' : [CntkEmit; TensorflowEmit; KerasEmit; PytorchEmit; MXNetEmit; CoreMLEmit]; # TODO: Caffe,No,No,No,Yes
+25707,different policies will implement different backend selection policies,No,Yes,Yes,No
+14544,TODO: add a check that ensures that cluster centers maintain their,Yes,Yes,Yes,Yes
+32906,clean(path; columns),Yes,Yes,Yes,No
+8622,rule) FIXME,Yes,Yes,Yes,Yes
+18743,TODO: implement a cython version to avoid the memory copy of the,Yes,Yes,Yes,Yes
+33919,FIXME:,No,Yes,Yes,Yes
+39271,XXX : should be improved later,Yes,Yes,Yes,Yes
+23025,HACK!!!,Yes,Yes,Yes,Yes
+9814,import train_deep_classifier  # NEED TO FIX blocks IMPORT,Yes,Yes,Yes,No
+40193,XXX should put a good list of default colors into defaults.py,Yes,Yes,Yes,Yes
+12148,TO-DO: 'mad': Median Absolute Deviation to be added,Yes,Yes,Yes,Yes
+37865,"\""\""\"" || This script inspects the images used by the chart and updates Chart.yaml's || annotations. Specifically; an annotation read by artificathub.io. For more || information; see this issue describing why we want this: ||  || https:\/\/github.com\/jupyterhub\/zero-to-jupyterhub-k8s\/issues\/2044 ||  || FIXME: This implementation is done quick and dirty by appending to Chart.yaml ||        instead of loading it; updating it; and writing content back. || \""\""\""",No,No,No,Yes
+36827,TODO: rename,Yes,Yes,Yes,Yes
+16676,Convention is to return scalars instead of 0d arrays,Yes,Yes,Yes,No
+4090,TODO Add recall metrics to TF1 in another cl.,Yes,Yes,Yes,Yes
+30830,todo: tf2 debugging only,Yes,Yes,Yes,Yes
+22012,TODO: rename here,Yes,Yes,Yes,Yes
+33298,Create columns for export to SQL Server,Yes,Yes,Yes,No
+3184,TODO: this is just a temporary solution for handling ngrams; figure out a better solution,Yes,Yes,Yes,Yes
+31096,todo: add read pickle; fwf; html; father; parquet; orc; sas; spss; stata,Yes,No,No,Yes
+23509,Verify forecast(avg_foo) feature; must be const noise centered around value=10,Yes,Yes,Yes,No
+19234,objects; as it ends up being too fragile,No,Yes,Yes,No
+5378,columns names as string constants,No,Yes,Yes,No
+18193,TODO get rid of this deferred import:,Yes,Yes,Yes,Yes
+21157,"warn(\""get_output() was called with unused kwargs:\ || \\t%s\""",No,Yes,Yes,No
+14885,"TODO: New method name should be something like: \""__dynamic_pipeline_method_{}\"".format(step[1].__name__ or i)",Yes,Yes,Yes,Yes
+22037,TODO put it in modifiers,Yes,Yes,Yes,Yes
+25090,really want to.  Not sure why you would ever want to in this case; this is just testing,Yes,Yes,Yes,Yes
+25628,FIXME: what do magic constants mean? (0.4; 7),Yes,Yes,Yes,Yes
+8150,Sample root node (choose one of the classes) TODO: check what happens if C=1,Yes,Yes,Yes,Yes
+19492,workaround since _set_intercept will cast self.coef_ into float64,No,Yes,Yes,Yes
+13542,todo: specify the possible exception,Yes,Yes,Yes,Yes
+11062,TODO(avaswani): Maybe scale the embeddings flowing out of the experts.,Yes,Yes,Yes,Yes
+3381,TODO: Contribute these to MXNet?  For now it appears that registered activation types must be implemented in C++.,Yes,Yes,Yes,Yes
+25913,TODO (Alex) :https:\/\/github.com\/ray-project\/ray\/pull\/9346,Yes,Yes,Yes,Yes
+18100,XXX: handling Nan is important here.,Yes,Yes,Yes,Yes
+1458,TODO: xp and value assign dynamically,Yes,Yes,Yes,Yes
+38782,XXX This is a cop-out -- we should validate,Yes,Yes,Yes,Yes
+13430,TODO: Deprecated in v0.10.0. Remove this method in v1.0,Yes,Yes,Yes,Yes
+29712,TODO: render in template,Yes,Yes,Yes,Yes
+2363,compute phase if needed,Yes,Yes,Yes,No
+25754,"TODO: ' Tensorboard example: {\""log_dir\"": \""\/tmp\/logs\/\""}.'",No,Yes,Yes,Yes
+20575,TO-DO: calc correlation between primary and synonymous p-values,Yes,Yes,Yes,Yes
+31709,"\""Decode\"" stage - Reads operands (if needed) and puts into the specific data structures",Yes,Yes,Yes,No
+29175,Recompute Wx on backprop to save memory (perhaps redo patches as well?),Yes,Yes,Yes,Yes
+19231,XXX: some transformers are transforming the input,Yes,Yes,Yes,Yes
+14070,including padding if padding is needed,Yes,Yes,Yes,No
+19848,TODO : Any other options,Yes,Yes,Yes,Yes
+34412,TODO(sublee): Move to above of Skippable class for better read flow.,Yes,Yes,Yes,Yes
+31615,coords should be computed at run-time; maybe with a trigger type system in,Yes,Yes,Yes,Yes
